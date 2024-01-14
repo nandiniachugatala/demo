@@ -30,8 +30,9 @@
             "scripts": []
           },
           "configurations": {
-           "baseHref": "/demo/browser",
             "production": {
+               "baseHref": "dist/demo/browser/",
+
               "budgets": [
                 {
                   "type": "initial",
