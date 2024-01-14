@@ -30,7 +30,7 @@
             "scripts": []
           },
           "configurations": {
-           "baseHref": "/demo/browser/",
+           "baseHref": "/demo/browser",
             "production": {
               "budgets": [
                 {
