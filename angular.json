@@ -31,7 +31,7 @@
           },
           "configurations": {
             "production": {
-               "baseHref": "dist/demo/browser/",
+               "baseHref": "/demo/",
 
               "budgets": [
                 {
