@@ -3,9 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>Demo</title>
-  <base href="/">
+  <base href="http://localhost/demo/browser/">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Add the Content Security Policy meta tag here -->
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <iframe src="http://localhost/demo/browser/" allow-scripts></iframe>
+
+
+
 </head>
 <body>
   <app-root></app-root>
